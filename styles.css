@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D8EFD3;
+}
+
+.bloco {
+    text-align: center;
+}
+
+.input {
+    padding: 4px;
+    margin-right: 8px;
+    width: 500px;
+}
+
+.botao {
+    padding: 4px;
+    background-color: #55AD9B;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 563px;
+    background-color: white;
+    border: 1px solid #55AD9B;
+}
+
+li span {
+    cursor: pointer;
+    width: 563px;
+    color: #55AD9B;
+}
+
+.marcar-concluida {
+    text-decoration: line-through;
+    color: rgb(105, 98, 98);
+}
+
+.marcar-concluida:checked + .texto  {
+    text-decoration: line-through;
+    color: rgb(105, 98, 98);
+}
+
+
+#div- {
+    display: flex;
+}
+
+.botao-deletar {
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid;
+    border-style: none;
+    background-color: white;
+    text-align: center;
+}
+
+.botao-atualizar {
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid;
+    border-style: none;
+    background-color: white;
+    text-align: center;
+}
+
+.titulo {
+    color: #55AD9B;
+}
